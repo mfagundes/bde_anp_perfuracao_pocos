@@ -30,8 +30,8 @@ theme:
     - toc.integrate
     - navigation.tabs
 
-#repo_url:
-#repo_name:
+repo_url: https://github.com/mfagundes/bde_anp_perfuracao_pocos
+repo_name: mfagundes/bde_anp_perfuracao_pocos
 
 extra:
   version: 2.0

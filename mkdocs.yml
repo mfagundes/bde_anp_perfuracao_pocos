@@ -1,0 +1,72 @@
+site_name: Documentação - ANP Poços Perfurados
+
+theme:
+  custom_dir: docs/overrides
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      # primary: light blue
+      # accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      # primary: cyan
+      # accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  language: pt
+  font:
+    text: Lato
+  favicon:
+  logo:
+  features:
+    - header.autohide
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - navigation.tabs
+
+#repo_url:
+#repo_name:
+
+extra:
+  version: 2.0
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/mfagundes
+    - icon: fontawesome/brands/github
+      link: https://github.com/mfagundes/bde_anp_perfucacao_pocos
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mauriciofagundes/
+
+
+nav:
+  - Home:
+    - Sobre este projeto: index.md
+    - Estrutura dos arquivos: file_structure.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - mkdocs_click
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed
+  - pymdownx.superfences
+
+extra_javascript:
+- js/termynal.js
+- js/custom.js
+
+plugins:
+  - search
+
+extra_css:
+- css/termynal.css
+- css/custom.css

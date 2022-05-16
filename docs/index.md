@@ -73,7 +73,7 @@ Ao observar o conteúdo dos arquivos percebe-se, como já citado anteriormente, 
 
 Também detectei que as células são salvas com o conteúdo formatado (por exemplo, percentuais estão inseridos como uma string "12,65%"). Estes casos também precisam ser tratados arquivo por arquivo, já que existem diferenças entre eles. A melhor forma é usar os seguintes padrões:
 
-- separação de decimais com ponto (``.`)
+- separação de decimais com ponto (``.``)
 - eliminar os separadores de milhar e não incluir nos arquivos
 - salvar com a codificação ``utf-8``
 - eliminar sinais de formatação, como ``$`` para moedas ou ``%`` para percentuais

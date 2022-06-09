@@ -101,3 +101,14 @@ Diversos:
 Todos os casos citados acima foram tratados, de forma automática e manual, e gerou o conjunto de dados limpos com os quais passei a trabalhar. Este projeto irá "herdar" os arquivos históricos já limpos e tratará apenas das alterações necessárias nos arquivos de 2022 em diante.
 
 Por fim, cabe incluir que já no primeiro mês de 2022, foi identificada uma inconsistência no nome do arquivo ``2022_01_01_producao.zip``, incorretamente nomeado como ``2022_01_producao-zip.zip``. Neste ponto observei a impossibilidade de manter a unificação com a série histórica e criei este novo projeto, dado que esta série não precisa passar por processos de limpeza que só podem ser feitos manualmente.
+
+**ATUALIZAÇÃO DE 09/06/2022**
+
+Ao baixar os arquivos de Abril/2022, constatei que todos os dados deste ano foram, novamente, alterados.
+
+Aparentemente, todos os arquivos foram mudados (desde janeiro) e o erro da nomenclatura
+citada anteriormente (``2022_01_01_producao-zip.zip``) for resolvida, porém o padrão
+de nomes destes arquivos mensais foi alterado para ``/{ano}/producao-{ano}-{mes}.zip``,
+o que reforça a impossibilidade de ter uma atualização inteiramente automatizada. O processo de extração
+dos arquivos precisa ser manual, com sua descompactação e, posteriormente, enviado de alguma forma para 
+o sistema.
